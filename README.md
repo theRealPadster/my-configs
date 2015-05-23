@@ -4,3 +4,5 @@ Personal repository to host my custom config files
 * Put my-MOC-theme into ~/.moc/themes/
 * Save bashrc as ~/.bashrc
 * Put user-dirs.dirs into ~/.config/
+* Save toprc as ~/.toprc
+* Put Templates folder into home folder
