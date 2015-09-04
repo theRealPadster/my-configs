@@ -10,6 +10,8 @@ Personal repository to host my custom config files
 
 ###MOC
 * Custom colours and layout
+![MOC theme screenshot]
+(https://i.imgur.com/1gPMbvd.png)
 
 ###.bashrc
 * Coloured ls output
