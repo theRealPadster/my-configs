@@ -6,6 +6,7 @@ Personal repository to host my custom config files
 * Save bashrc as ~/.bashrc
 * Put user-dirs.dirs into ~/.config/
 * Save toprc as ~/.toprc
+* Put 50-mouse-acceleration.conf into /etc/X11/xorg.conf.d/ 
 * Put Templates folder into home folder
 
 ###MOC
@@ -23,6 +24,9 @@ All standard GNOME folders, but replaced Desktop with /home/padster, so a Deskto
 
 ###.toprc
 * Got rid of tree view
+
+###50-mouse-acceleration.conf
+Completely diables mouse acceleration for my SteelSeries Sensei Raw Gaming Mouse
 
 ###Templates
 * CSS file
