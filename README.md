@@ -18,6 +18,7 @@ Personal repository to host my custom config files
 * Coloured ls output
 * Enabled vdpau
 * Set $EDITOR to nano
+* Add Android SDK to PATH 
 
 ###user-dirs.dirs
 All standard GNOME folders, but replaced Desktop with /home/padster, so a Desktop folder is not auto-created.
