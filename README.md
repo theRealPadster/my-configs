@@ -8,6 +8,8 @@ Personal repository to host my custom config files
 * Save toprc as ~/.toprc
 * Put 50-mouse-acceleration.conf into /etc/X11/xorg.conf.d/ 
 * Put Templates folder into home folder
+* Put fonts.conf in ~/.config/fontconfig/
+* Put NotoColorEmoji.ttf in ~/.fonts/
 
 ###MOC
 * Custom colours and layout
@@ -37,3 +39,7 @@ Completely diables mouse acceleration for my SteelSeries Sensei Raw Gaming Mouse
   * Contains !DOCTYPE, head, title, body
 * PHP file
   * Same as HTML file, but with php block in the body
+
+###Emoji Support
+* Adds colour emoji support to Chrome-based browsers
+* More info at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/2016/08/enable-color-emoji-linux-google-chrome-noto)
