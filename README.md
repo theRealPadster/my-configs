@@ -3,6 +3,7 @@ Personal repository to host my custom config files
 
 ##Locations
 * Put my-MOC-theme into ~/.moc/themes/
+* Put mitsuyoshi.json and bright-and-bold.json into /usr/share/terminix/schemes
 * Save bashrc as ~/.bashrc
 * Put user-dirs.dirs into ~/.config/
 * Save toprc as ~/.toprc
@@ -15,6 +16,11 @@ Personal repository to host my custom config files
 * Custom colours and layout
 ![MOC theme screenshot]
 (https://i.imgur.com/1gPMbvd.png)
+
+###Terminix (terminal) colour schemes
+* Two terminal colour schemes (Mitsuyoshi pictured below)
+![Mitsuyoshi scheme screenshot]
+(https://i.imgur.com/TElTRhU.png)
 
 ###.bashrc
 * Coloured ls output
