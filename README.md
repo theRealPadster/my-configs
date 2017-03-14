@@ -1,7 +1,7 @@
 # my-configs
 Personal repository to host my custom config files
 
-##Locations
+## Locations
 * Put my-MOC-theme into ~/.moc/themes/
 * Put mitsuyoshi.json and bright-and-bold.json into /usr/share/terminix/schemes
 * Save bashrc as ~/.bashrc
@@ -12,32 +12,32 @@ Personal repository to host my custom config files
 * Put fonts.conf in ~/.config/fontconfig/
 * Put NotoColorEmoji.ttf in ~/.fonts/
 
-###MOC
+### MOC
 * Custom colours and layout
 ![MOC theme screenshot]
 (https://i.imgur.com/1gPMbvd.png)
 
-###Terminix (terminal) colour schemes
+### Terminix (terminal) colour schemes
 * Two terminal colour schemes (Mitsuyoshi pictured below)
 ![Mitsuyoshi scheme screenshot]
 (https://i.imgur.com/TElTRhU.png)
 
-###.bashrc
+### .bashrc
 * Coloured ls output
 * Enabled vdpau
 * Set $EDITOR to nano
 * Add Android SDK to PATH 
 
-###user-dirs.dirs
+### user-dirs.dirs
 All standard GNOME folders, but replaced Desktop with /home/padster, so a Desktop folder is not auto-created.
 
-###.toprc
+### .toprc
 * Got rid of tree view
 
-###50-mouse-acceleration.conf
+### 50-mouse-acceleration.conf
 Completely diables mouse acceleration for my SteelSeries Sensei Raw Gaming Mouse
 
-###Templates
+### Templates
 * CSS file
   * Sets font to sans-serif
 * Empty text file
@@ -46,6 +46,6 @@ Completely diables mouse acceleration for my SteelSeries Sensei Raw Gaming Mouse
 * PHP file
   * Same as HTML file, but with php block in the body
 
-###Emoji Support
+### Emoji Support
 * Adds colour emoji support to Chrome-based browsers
 * More info at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/2016/08/enable-color-emoji-linux-google-chrome-noto)
