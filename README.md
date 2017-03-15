@@ -45,6 +45,8 @@ Completely diables mouse acceleration for my SteelSeries Sensei Raw Gaming Mouse
   * Contains !DOCTYPE, head, title, body
 * PHP file
   * Same as HTML file, but with php block in the body
+* Shell script
+  * Just a blank shell script
 
 ### Emoji Support
 * Adds colour emoji support to Chrome-based browsers
