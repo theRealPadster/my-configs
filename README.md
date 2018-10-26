@@ -5,6 +5,7 @@ Personal repository to host my custom config files
 * Put my-MOC-theme into ~/.moc/themes/
 * Put mitsuyoshi.json and bright-and-bold.json into /usr/share/tilix/schemes
 * Save bashrc as ~/.bashrc
+* Save zshrc as ~/.zshrc
 * Put user-dirs.dirs into ~/.config/
 * Save toprc as ~/.toprc
 * Put 50-mouse-acceleration.conf into /etc/X11/xorg.conf.d/ 
@@ -16,7 +17,7 @@ Personal repository to host my custom config files
 * Custom colours and layout
 ![MOC theme screenshot](https://i.imgur.com/1gPMbvd.png)
 
-### Terminix (terminal) colour schemes
+### Tilix (terminal) colour schemes
 * Two terminal colour schemes (Mitsuyoshi pictured below)
 ![Mitsuyoshi scheme screenshot](https://i.imgur.com/TElTRhU.png)
 
@@ -26,6 +27,13 @@ Personal repository to host my custom config files
 * Set $EDITOR to nano
 * Add Android SDK to PATH 
 
+### .zshrc
+* Enable zsh-theme-powerlevel9k theme (needs to be installed from AUR)
+* Coloured ls output
+* Enabled vdpau
+* Set up proper keybinds
+* Set up history to be saved
+
 ### user-dirs.dirs
 All standard GNOME folders, but replaced Desktop with /home/padster, so a Desktop folder is not auto-created.
 
@@ -33,7 +41,7 @@ All standard GNOME folders, but replaced Desktop with /home/padster, so a Deskto
 * Got rid of tree view
 
 ### 50-mouse-acceleration.conf
-Completely diables mouse acceleration for my SteelSeries Sensei Raw Gaming Mouse
+Completely diables mouse acceleration for my Mionix Naos 7000
 
 ### Templates
 * CSS file
