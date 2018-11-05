@@ -1,47 +1,49 @@
 # my-configs
 Personal repository to host my custom config files
 
-## Locations
-* Put my-MOC-theme into ~/.moc/themes/
-* Put mitsuyoshi.json and bright-and-bold.json into /usr/share/tilix/schemes
-* Save bashrc as ~/.bashrc
-* Save zshrc as ~/.zshrc
-* Put user-dirs.dirs into ~/.config/
-* Save toprc as ~/.toprc
-* Put 50-mouse-acceleration.conf into /etc/X11/xorg.conf.d/ 
-* Put Templates folder into home folder
-* Put fonts.conf in ~/.config/fontconfig/
-* Put NotoColorEmoji.ttf in ~/.fonts/
+## 50-mouse-acceleration.conf
+* Put `50-mouse-acceleration.conf` into `/etc/X11/xorg.conf.d/`
+* Completely disables mouse acceleration for my Mionix Naos 7000
+* This isn't set up in `stow` because it's root-level. I haven't decided if I should add it to the setup script or not, so it's separate for now. 
+
+## Dotfiles
+* To set up all config files, `cd` into this repo's root directory and run `./stow-all.sh`
+* To set up individual config files, run `stow foldername --target="$HOME"`
 
 ### MOC
 * Custom colours and layout
 ![MOC theme screenshot](https://i.imgur.com/1gPMbvd.png)
 
 ### Tilix (terminal) colour schemes
-* Two terminal colour schemes (Mitsuyoshi pictured below)
+* Added three terminal colour schemes: Bright-and-bold, Nord, and Mitsuyoshi (pictured below)
 ![Mitsuyoshi scheme screenshot](https://i.imgur.com/TElTRhU.png)
 
-### .bashrc
-* Coloured ls output
-* Enabled vdpau
-* Set $EDITOR to nano
-* Add Android SDK to PATH 
+### Fish
+* Added oh-my-fish config directory with `nvm` plugin and `scorphish` theme
+  * These have tweaks I've made to them but I'm not sure how to add them to this repo yet
+  * Nvm: [Add --no-use option](https://github.com/derekstavis/plugin-nvm/pull/12)
+  * Scorphish: Remove python version from prompt, in `~/.config/omf/themes/scorphish/fish_prompt.fish`
+* Set `$VISUAL` to `gedit`
+* Set `$EDITOR` to `vim`
 
-### .zshrc
-* Enable zsh-theme-powerlevel9k theme (needs to be installed from AUR)
-* Coloured ls output
+### Bash
+* Coloured `ls` output
 * Enabled vdpau
+* Set `$VISUAL` to `gedit`
+* Set `$EDITOR` to `vim`
+* Add Android SDK to `$PATH `
+
+### Zsh
+* Enable zsh-theme-powerlevel9k theme (needs to be installed from AUR)
+* Coloured `ls` output
+* Enabled vdpau
+* Set `$VISUAL` to `gedit`
+* Set `$EDITOR` to `vim`
 * Set up proper keybinds
 * Set up history to be saved
 
-### user-dirs.dirs
-All standard GNOME folders, but replaced Desktop with /home/padster, so a Desktop folder is not auto-created.
-
-### .toprc
+### Top
 * Got rid of tree view
-
-### 50-mouse-acceleration.conf
-Completely diables mouse acceleration for my Mionix Naos 7000
 
 ### Templates
 * CSS file
@@ -52,8 +54,9 @@ Completely diables mouse acceleration for my Mionix Naos 7000
 * PHP file
   * Same as HTML file, but with php block in the body
 * Shell script
-  * Just a blank shell script
+  * Just a blank bash script
 
-### Emoji Support
-* Adds colour emoji support to Chrome-based browsers
-* More info at [OMG! Ubuntu!](http://www.omgubuntu.co.uk/2016/08/enable-color-emoji-linux-google-chrome-noto)
+### Misc
+* `user-dirs.dirs`
+  * All standard GNOME folders, but replaced `Desktop` with `$HOME`, so a Desktop folder is not auto-created.
+

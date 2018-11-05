@@ -53,4 +53,5 @@ setopt INC_APPEND_HISTORY_TIME
 alias ls='ls --color=auto'
 export LIBVA_DRIVER_NAME=vdpau
 export VDPAU_DRIVER=nvidia
-
+export EDITOR="vim"
+export VISUAL="gedit"
