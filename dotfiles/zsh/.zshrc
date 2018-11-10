@@ -39,8 +39,15 @@ if [ -n "${DISPLAY:-}" ]; then
    zle -N zle-line-finish
 fi
 
+#ctrl+right
 bindkey "^[[1;5C" forward-word
+#ctrl+left
 bindkey "^[[1;5D" backward-word
+# ctrl+backspace
+bindkey "^H" backward-kill-word
+# ctrl+del
+bindkey "^[[3;5~" kill-word
+
 
 # Set up history
 HISTFILE=~/.zsh_history
