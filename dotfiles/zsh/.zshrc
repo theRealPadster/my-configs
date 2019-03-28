@@ -62,4 +62,4 @@ export LIBVA_DRIVER_NAME=vdpau
 export VDPAU_DRIVER=nvidia
 export EDITOR="vim"
 export VISUAL="gedit"
-alias update 'yaourt -Syua'
+alias update 'yay -Syu'

@@ -21,7 +21,6 @@ Personal repository to host my custom config files
 ### Fish
 * Added oh-my-fish config directory with `nvm` plugin and `scorphish` theme
   * These have tweaks I've made to them but I'm not sure how to add them to this repo yet
-  * Nvm: [Add --no-use option](https://github.com/derekstavis/plugin-nvm/pull/12)
   * Scorphish: Remove python version from prompt, in `~/.config/omf/themes/scorphish/fish_prompt.fish`
 * Set `$VISUAL` to `gedit`
 * Set `$EDITOR` to `vim`
