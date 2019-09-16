@@ -19,10 +19,9 @@ Personal repository to host my custom config files
 ![Mitsuyoshi scheme screenshot](https://i.imgur.com/TElTRhU.png)
 
 ### Fish
-* Add `nvm` plugin
-  * I've made a fix to this, but I'm not sure how to add it to this repo yet
-* Add `peco` plugin
-* Add `foreign-env` plugin
+* Add [nvm](https://github.com/derekstavis/plugin-nvm) plugin
+* Add [peco](https://github.com/oh-my-fish/plugin-peco) plugin
+* Add [foreign-env](https://github.com/oh-my-fish/plugin-foreign-env) plugin
 * Set [Scorphish](https://github.com/oh-my-fish/theme-scorphish) theme
   * Only show Node version in prompt
 * Set `$VISUAL` to `gedit`
