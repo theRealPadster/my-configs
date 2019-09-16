@@ -4,7 +4,7 @@ Personal repository to host my custom config files
 ## 50-mouse-acceleration.conf
 * Put `50-mouse-acceleration.conf` into `/etc/X11/xorg.conf.d/`
 * Completely disables mouse acceleration for my Mionix Naos 7000
-* This isn't set up in `stow` because it's root-level. I haven't decided if I should add it to the setup script or not, so it's separate for now. 
+* This isn't set up in `stow` because it's root-level. I haven't decided if I should add it to the setup script or not, so it's separate for now.
 
 ## Dotfiles
 * To set up all config files, `cd` into this repo's root directory and run `./stow-all.sh`
@@ -19,9 +19,12 @@ Personal repository to host my custom config files
 ![Mitsuyoshi scheme screenshot](https://i.imgur.com/TElTRhU.png)
 
 ### Fish
-* Added oh-my-fish config directory with `nvm` plugin and `scorphish` theme
-  * These have tweaks I've made to them but I'm not sure how to add them to this repo yet
-  * Scorphish: Remove python version from prompt, in `~/.config/omf/themes/scorphish/fish_prompt.fish`
+* Add `nvm` plugin
+  * I've made a fix to this, but I'm not sure how to add it to this repo yet
+* Add `peco` plugin
+* Add `foreign-env` plugin
+* Set [Scorphish](https://github.com/oh-my-fish/theme-scorphish) theme
+  * Only show Node version in prompt
 * Set `$VISUAL` to `gedit`
 * Set `$EDITOR` to `vim`
 
