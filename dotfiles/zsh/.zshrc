@@ -63,3 +63,4 @@ export VDPAU_DRIVER=nvidia
 export EDITOR="vim"
 export VISUAL="gedit"
 alias update 'yay -Syu'
+alias online 'ping 8.8.8.8'

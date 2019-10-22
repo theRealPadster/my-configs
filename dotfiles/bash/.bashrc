@@ -25,3 +25,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias update 'yay -Syu'
+alias online 'ping 8.8.8.8'

@@ -20,12 +20,16 @@ Personal repository to host my custom config files
 
 ### Fish
 * Add [nvm](https://github.com/derekstavis/plugin-nvm) plugin
-* Add [peco](https://github.com/oh-my-fish/plugin-peco) plugin
 * Add [foreign-env](https://github.com/oh-my-fish/plugin-foreign-env) plugin
+* Add [peco](https://github.com/oh-my-fish/plugin-peco) plugin
 * Set [Scorphish](https://github.com/oh-my-fish/theme-scorphish) theme
   * Only show Node version in prompt
 * Set `$VISUAL` to `gedit`
 * Set `$EDITOR` to `vim`
+* Add aliases:
+  * `update`: `yay -Syu`
+  * `online`: `ping 8.8.8.8`
+  * `ip`: returns local ipv4 address
 
 ### Bash
 * Coloured `ls` output
@@ -33,6 +37,9 @@ Personal repository to host my custom config files
 * Set `$VISUAL` to `gedit`
 * Set `$EDITOR` to `vim`
 * Add Android SDK to `$PATH `
+* Add aliases:
+  * `update`: `yay -Syu`
+  * `online`: `ping 8.8.8.8`
 
 ### Zsh
 * Enable zsh-theme-powerlevel9k theme (needs to be installed from AUR)
@@ -42,6 +49,9 @@ Personal repository to host my custom config files
 * Set `$EDITOR` to `vim`
 * Set up proper keybinds
 * Set up history to be saved
+* Add aliases:
+  * `update`: `yay -Syu`
+  * `online`: `ping 8.8.8.8`
 
 ### Top
 * Got rid of tree view
