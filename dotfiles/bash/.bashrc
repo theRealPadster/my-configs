@@ -5,24 +5,29 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-export LIBVA_DRIVER_NAME=vdpau
-export VDPAU_DRIVER=nvidia
 export EDITOR="vim"
-export VISUAL="gedit"
-
-export PATH=$PATH:~/Android/Sdk
-export PATH=$PATH:~/Android/Sdk/platform-tools
-export PATH=$PATH:~/Android/Sdk/tools
-export ANDROID_HOME=~/Android/Sdk
-
 alias vi='vim'
+alias online='ping 8.8.8.8'
+alias ip="ifconfig | grep -Eo '([0-9]+\.){3}([0-9]+.)' | grep -Ev '255\$|(127.0.0.1)|(255.255.255.0)'"
 
+## Add nvm support
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias update 'yay -Syu'
-alias online 'ping 8.8.8.8'
+# Load OS-specific configs
+case "$OSTYPE" in
+  darwin*)
+    # ...
+    source ~/.bashrc-mac.bashrc
+  ;;
+  linux*)
+    # ...
+    source ~/.bashrc-linux.bashrc
+  ;;
+  dragonfly*|freebsd*|netbsd*|openbsd*)
+    # ...
+  ;;
+esac

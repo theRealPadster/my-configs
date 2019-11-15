@@ -33,25 +33,33 @@ Personal repository to host my custom config files
 
 ### Bash
 * Coloured `ls` output
-* Enabled vdpau
-* Set `$VISUAL` to `gedit`
 * Set `$EDITOR` to `vim`
-* Add Android SDK to `$PATH `
+* Add `nvm` support
 * Add aliases:
-  * `update`: `yay -Syu`
   * `online`: `ping 8.8.8.8`
+  * `ip`: returns local ipv4 address
+* Linux-specific:
+  * Enabled vdpau
+  * Set `$VISUAL` to `gedit`
+  * Add Android SDK to `$PATH`
+  * Add aliases:
+    * `update`: `yay -Syu`
 
 ### Zsh
-* Enable zsh-theme-powerlevel9k theme (needs to be installed from AUR)
 * Coloured `ls` output
-* Enabled vdpau
-* Set `$VISUAL` to `gedit`
+* Add `nvm` support
 * Set `$EDITOR` to `vim`
 * Set up proper keybinds
 * Set up history to be saved
 * Add aliases:
-  * `update`: `yay -Syu`
   * `online`: `ping 8.8.8.8`
+  * `ip`: returns local ipv4 address
+* Linux-specific:
+  * Enable zsh-theme-powerlevel9k theme (needs to be installed from AUR)
+  * Enabled vdpau
+  * Set `$VISUAL` to `gedit`
+  * Add aliases:
+    * `update`: `yay -Syu`
 
 ### Top
 * Got rid of tree view
@@ -70,4 +78,3 @@ Personal repository to host my custom config files
 ### Misc
 * `user-dirs.dirs`
   * All standard GNOME folders, but replaced `Desktop` with `$HOME`, so a Desktop folder is not auto-created.
-
