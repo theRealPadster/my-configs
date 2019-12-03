@@ -8,4 +8,4 @@ export PATH=$PATH:~/Android/Sdk/platform-tools
 export PATH=$PATH:~/Android/Sdk/tools
 export ANDROID_HOME=~/Android/Sdk
 
-alias update 'yay -Syu'
+alias update='yay -Syu'
