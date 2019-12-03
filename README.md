@@ -26,6 +26,7 @@ Personal repository to host my custom config files
   * Only show Node version in prompt
 * Set `$VISUAL` to `gedit`
 * Set `$EDITOR` to `vim`
+* Automatically switch `node` version when find `.nvmrc` and revert to default version when none
 * Add aliases:
   * `update`: `yay -Syu`
   * `online`: `ping 8.8.8.8`
@@ -35,6 +36,7 @@ Personal repository to host my custom config files
 * Coloured `ls` output
 * Set `$EDITOR` to `vim`
 * Add `nvm` support
+* Automatically switch `node` version when find `.nvmrc` and revert to default version when none
 * Add aliases:
   * `online`: `ping 8.8.8.8`
   * `ip`: returns local ipv4 address
@@ -48,6 +50,7 @@ Personal repository to host my custom config files
 ### Zsh
 * Coloured `ls` output
 * Add `nvm` support
+* Automatically switch `node` version when find `.nvmrc` and revert to default version when none
 * Set `$EDITOR` to `vim`
 * Set up proper keybinds
 * Set up history to be saved

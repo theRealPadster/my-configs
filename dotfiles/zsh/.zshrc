@@ -45,6 +45,9 @@ setopt INC_APPEND_HISTORY_TIME
 
 # Add nvm support (https://github.com/lukechilds/zsh-nvm)
 source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+source ~/.auto-nvm.sh
+# Zsh doesn't use PROMPT_CCOMMAND, so trigger it here
+precmd() { eval "$PROMPT_COMMAND" }
 
 # Other stuff
 export EDITOR="vim"
