@@ -11,6 +11,7 @@ export EDITOR="vim"
 alias vi='vim'
 alias online='ping 8.8.8.8'
 alias ip="ifconfig | grep -Eo '([0-9]+\.){3}([0-9]+.)' | grep -Ev '255\$|(127.0.0.1)|(255.255.255.0)'"
+export SPICETIFY_CONFIG="$HOME/.config/spicetify"
 
 ## Add nvm support
 export NVM_DIR="$HOME/.nvm"

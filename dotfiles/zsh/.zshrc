@@ -46,7 +46,7 @@ setopt INC_APPEND_HISTORY_TIME
 # Add nvm support (https://github.com/lukechilds/zsh-nvm)
 source ~/.zsh-nvm/zsh-nvm.plugin.zsh
 source ~/.auto-nvm.sh
-# Zsh doesn't use PROMPT_CCOMMAND, so trigger it here
+# Zsh doesn't use PROMPT_COMMAND, so trigger it here
 precmd() { eval "$PROMPT_COMMAND" }
 
 # Other stuff
@@ -54,6 +54,7 @@ export EDITOR="vim"
 alias vi='vim'
 alias online='ping 8.8.8.8'
 alias ip="ifconfig | grep -Eo '([0-9]+\.){3}([0-9]+.)' | grep -Ev '255\$|(127.0.0.1)|(255.255.255.0)'"
+export SPICETIFY_CONFIG="$HOME/.config/spicetify"
 
 # Load OS-specific configs
 case "$OSTYPE" in
