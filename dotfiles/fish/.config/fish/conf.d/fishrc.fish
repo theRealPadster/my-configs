@@ -4,6 +4,7 @@ alias update 'yay -Syu'
 alias ip "ifconfig | grep -Eo '([0-9]+\.){3}([0-9]+.)' | grep -Ev '255\$|(127.0.0.1)|(255.255.255.0)'"
 alias online 'ping 8.8.8.8'
 set -gx SPICETIFY_CONFIG "$HOME/.config/spicetify"
+set -gx PATH "$PATH:/usr/local/bin"
 
 # Set up OMF Scorphish theme prompt
 set -g theme_display_node yes
