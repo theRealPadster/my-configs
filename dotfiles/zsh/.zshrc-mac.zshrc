@@ -18,3 +18,6 @@ bindkey "^U" backward-kill-line
 bindkey "^A" beginning-of-line
 # cmd+right
 bindkey "^E" end-of-line
+
+alias update 'brew update'
+[ -f "/Users/imaier/.shopify-app-cli/shopify.sh" ] && source "/Users/imaier/.shopify-app-cli/shopify.sh"

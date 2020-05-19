@@ -1,6 +1,4 @@
-set -gx VISUAL "gedit"
 set -gx EDITOR "vim"
-alias update 'yay -Syu'
 alias ip "ifconfig | grep -Eo '([0-9]+\.){3}([0-9]+.)' | grep -Ev '255\$|(127.0.0.1)|(255.255.255.0)'"
 alias online 'ping 8.8.8.8'
 set -gx SPICETIFY_CONFIG "$HOME/.config/spicetify"
@@ -28,4 +26,17 @@ function nvm_prompt --on-variable PWD
             set -g NVM_DIRTY false
         end
     end
+end
+
+switch (uname)
+    case Linux
+        alias update 'yay -Syu'
+        set -gx VISUAL "gedit"
+    case Darwin
+        alias update 'brew update'
+        source ~/.shopify-app-cli/shopify.fish
+    case FreeBSD NetBSD DragonFly
+        echo Hi Beastie!
+    case '*'
+        echo Hi, stranger!
 end
